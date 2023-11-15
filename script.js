@@ -18,6 +18,6 @@ function conversao(moeda){
     return res;
 }
 
-conversao(moeda);
+var resultado = conversao(moeda);
 
-alert(res);
+alert('Valor: ' + resultado.toFixed(2));
